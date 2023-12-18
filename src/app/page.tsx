@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <div className={"absolute -z-10 inset-0"}>
-          <Image src={backgroundImage} alt={'sports girls'} fill style={{objectFit:'cover'}}></Image>
+          <Image src={backgroundImage} alt={'sports girls'} fill style={{objectFit:'cover'}}/>
       </div>
       <Header />
       <div>Tekst</div>
