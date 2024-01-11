@@ -1,0 +1,15 @@
+.bgImg {
+    background-image: url('/public/images (7).jpeg');
+    background-size: cover;
+
+}
+
+.bgGradient {
+        /*background: radial-gradient(circle at center, #5eead4, #c5f6ee),*/
+        /*url('/public/images (7).jpeg') no-repeat;*/
+        /*width: 80%;*/
+        /*height: 400px;*/
+        /*background-size: cover;*/
+
+    background-image: url('/public/images (7).jpeg');
+}

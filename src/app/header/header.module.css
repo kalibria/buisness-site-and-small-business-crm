@@ -1,0 +1,22 @@
+.headerWrapper {
+    height: 7.25vh;
+}
+
+.header {
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchIcon {
+    box-shadow: 0 3px #77889952;
+}
+
+.loginButton {
+    color: rgba(0, 144, 144, 1);
+    border-color: rgba(0, 144, 144, 1);
+    box-shadow: 0 3px #77889952;
+
+}
