@@ -1,5 +1,5 @@
 .headerWrapper {
-    height: 7.25vh;
+    min-height: 7.25vh;
 }
 
 .header {
@@ -8,6 +8,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo {
+    min-width: 64px;
+
 }
 
 .searchIcon {
