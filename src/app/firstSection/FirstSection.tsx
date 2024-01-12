@@ -7,8 +7,8 @@ const FirstSection = () =>{
     <div className={styles.firstSection}>
       <div className={styles.colorBackground}>
         <div className={styles.firstSection_text}>
-          <h1>Dein Online-Yogastudio</h1>
-          <p>YogaEasy ist dein persönliches Online-Yogastudio für zu hause oder unterwegs. Mit YogaEasy kannst du ganz bequem Yoga üben - wann und wo immer du willst.</p>
+          <h1 className={'font-philosopher'}>Dein Online-Yogastudio</h1>
+          <p className={'font-source'}>YogaEasy ist dein persönliches Online-Yogastudio für zu hause oder unterwegs. Mit YogaEasy kannst du ganz bequem Yoga üben - wann und wo immer du willst.</p>
           <div>
             <p>25% Rabatt für dich ››</p>
           </div>

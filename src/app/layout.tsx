@@ -1,8 +1,19 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+// import { Inter } from 'next/font/google'
 import './globals.css'
+import {Philosopher} from 'next/font/google';
+import {Source_Sans_3} from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] })
+const philosopher = Philosopher({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  variable: '--font-philosopher',
+})
+
+const sourceSance3 = Source_Sans_3({
+  subsets: ['latin'],
+  variable: '--font-sourceSance3'
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${philosopher.variable} + ${sourceSance3.variable}`}>{children}</body>
     </html>
   )
 }

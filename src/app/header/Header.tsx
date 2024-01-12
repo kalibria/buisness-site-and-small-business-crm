@@ -14,7 +14,7 @@ const Header = () => {
         <div>
           <ul className={'flex'}>
             {HEADER_LINKS.map((link)=>{
-              return <li key={link} className={'mr-10 hover:underline decoration-teal-300 decoration-2'}>{link}</li>
+              return <li key={link} className={'mr-10 hover:underline decoration-teal-300 decoration-2 font-source'}>{link}</li>
             })}
           </ul>
         </div>
