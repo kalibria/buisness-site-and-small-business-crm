@@ -15,6 +15,10 @@
     font-size: 18px;
     color: var(--lightGren)
   }
+
+
+
+
 }
 
 .firstSection_text {
@@ -23,7 +27,22 @@
   top:175px;
   left:231px;
 
+  :last-child {
+    min-width: 246px;
+    min-height: 40px;
+    background-color: rgba(241, 162, 147, 1);
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    p{
+      font-size: 16px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
 }
 
 .imgBackground {
