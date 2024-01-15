@@ -4,6 +4,10 @@
   background-color: rgba(213, 212, 208, 1);
 }
 
+.imgBackground {
+  //clip-path: path("M100,300 C282,271 289,99 505,293");
+}
+
 
 .firstSection {
   h1 {
@@ -16,6 +20,14 @@
     color: var(--lightGren)
   }
 
+  .discountImg {
+    max-width: 204px;
+    max-height: 217px;
+    position: absolute;
+    right: 187px;
+    top: 300px;
+
+  }
 
 
 
