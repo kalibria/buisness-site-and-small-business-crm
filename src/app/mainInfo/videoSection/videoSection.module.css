@@ -1,0 +1,19 @@
+.videoBlock {
+    max-width: 380px;
+    background-color: var(--bgcGray);
+    border-radius: 30px;
+
+}
+
+.videoInfo {
+    display: flex;
+    justify-content: space-between;
+    border-right:  1px solid #555547;
+    align-items: center;
+    height: 18px;
+
+}
+
+.videoSection {
+    margin-top: 48px;
+}

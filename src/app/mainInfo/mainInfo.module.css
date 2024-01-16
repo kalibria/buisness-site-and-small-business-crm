@@ -6,6 +6,7 @@
     display: flex;
     position: absolute;
     top: 930px;
+    flex-direction: column;
 }
 
 .allInfoWrapper {
