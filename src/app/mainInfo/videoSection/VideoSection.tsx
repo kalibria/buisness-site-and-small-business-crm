@@ -17,9 +17,9 @@ const VideoSection = () =>{
           <Image src={meditation} alt={'meditation'}/>
           <div className={'mx-4'}>
             <p className={'mt-2 font-source text-basicTextColor text-lg '}>Annika Isterling</p>
-            <span className={'mt-2 font-source text-basicTextColor text-lg font-bold'}>Meditation zum Visualisieren deiner Träume und Ideen</span>
+            <span className={`${styles.card__description} + mt-2 font-source text-basicTextColor text-lg font-bold`}>Meditation zum Visualisieren deiner Träume und Ideen</span>
 
-            <div className={'flex justify-between py-3'}>
+            <div className={styles.card__metadata}>
               <div className={styles.videoInfo}>
                 <div className={'w-4 h-4 mr-0.5'}>
                   <Image src={clock} alt={'clock'}/>
@@ -44,8 +44,8 @@ const VideoSection = () =>{
           <Image src={yogaPose} alt={'yogaPose'}/>
           <div className={'mx-4'}>
             <p className={'mt-2 font-source text-basicTextColor text-lg '}>Moritz Ulrich</p>
-            <span className={'mt-2 font-source text-basicTextColor text-lg font-bold'}>Jivamukti Daily Practice für den Morgen</span>
-            <div className={'flex justify-between py-3'}>
+            <span className={`${styles.card__description} + mt-2 font-source text-basicTextColor text-lg font-bold`}>Jivamukti Daily Practice für den Morgen</span>
+            <div className={styles.card__metadata}>
               <div className={styles.videoInfo}>
                 <div className={'w-4 h-4 mr-0.5'}>
                   <Image src={clock} alt={'clock'}/>
@@ -71,9 +71,9 @@ const VideoSection = () =>{
 
           <div className={'mx-4'}>
             <p className={'mt-2 font-source text-basicTextColor text-lg '}>Nina Heitmann</p>
-            <span className={'mt-2 font-source text-basicTextColor text-lg font-bold'}>Natarajasana Flow</span>
+            <span className={`${styles.card__description} + mt-2 font-source text-basicTextColor text-lg font-bold`}>Natarajasana Flow</span>
 
-            <div className={'flex justify-between py-3'}>
+            <div className={styles.card__metadata}>
               <div className={styles.videoInfo}>
                 <div className={'w-4 h-4 mr-0.5'}>
                   <Image src={clock} alt={'clock'}/>
