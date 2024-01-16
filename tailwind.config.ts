@@ -17,6 +17,11 @@ const config: Config = {
         philosopher: ['var(--font-philosopher)'],
         source: ['var(--font-sourceSance3)'],
       },
+      colors: {
+        'headerTextColor': '#0E5C63',
+        'basicTextColor': '#555547',
+        'bgcGray': '#F8F8F6'
+      }
     },
   },
   plugins: [],
