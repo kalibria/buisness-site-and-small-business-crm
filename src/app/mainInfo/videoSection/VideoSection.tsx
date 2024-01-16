@@ -18,11 +18,13 @@ const VideoSection = () =>{
           <div className={'mx-4'}>
             <p className={'mt-2 font-source text-basicTextColor text-lg '}>Annika Isterling</p>
             <span className={'mt-2 font-source text-basicTextColor text-lg font-bold'}>Meditation zum Visualisieren deiner Träume und Ideen</span>
+
             <div className={'flex justify-between py-3'}>
               <div className={styles.videoInfo}>
                 <div className={'w-4 h-4 mr-0.5'}>
                   <Image src={clock} alt={'clock'}/>
                 </div>
+
                 <p className={'font-source text-basicTextColor text-lg'}>17 Min.</p>
               </div>
               <div className={styles.videoInfo}>
@@ -66,15 +68,16 @@ const VideoSection = () =>{
 
         <div className={styles.videoBlock}>
           <Image src={girls} alt={'girls'}/>
+
           <div className={'mx-4'}>
             <p className={'mt-2 font-source text-basicTextColor text-lg '}>Nina Heitmann</p>
             <span className={'mt-2 font-source text-basicTextColor text-lg font-bold'}>Natarajasana Flow</span>
-            <div className={'flex justify-between py-3 self-end'}>
+
+            <div className={'flex justify-between py-3'}>
               <div className={styles.videoInfo}>
                 <div className={'w-4 h-4 mr-0.5'}>
                   <Image src={clock} alt={'clock'}/>
                 </div>
-
                 <p className={'font-source text-basicTextColor text-lg'}>38 Min.</p>
               </div>
               <div className={styles.videoInfo}>

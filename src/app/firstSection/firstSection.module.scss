@@ -39,15 +39,15 @@
   top:175px;
   left:231px;
 
-  :last-child {
-    min-width: 246px;
-    min-height: 40px;
-    background-color: rgba(241, 162, 147, 1);
-    color: white;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  //:last-child {
+  //  min-width: 246px;
+  //  min-height: 40px;
+  //  background-color: rgba(241, 162, 147, 1);
+  //  color: white;
+  //  border-radius: 30px;
+  //  display: flex;
+  //  align-items: center;
+  //  justify-content: center;
 
     p{
       font-size: 16px;
@@ -55,8 +55,5 @@
       padding-right: 50px;
     }
   }
-}
 
-.imgBackground {
 
-}

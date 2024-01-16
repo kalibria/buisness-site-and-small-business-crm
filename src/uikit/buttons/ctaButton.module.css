@@ -1,0 +1,10 @@
+.ctaButton {
+    width: 246px;
+    min-height: 40px;
+    background-color: rgba(241, 162, 147, 1);
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
