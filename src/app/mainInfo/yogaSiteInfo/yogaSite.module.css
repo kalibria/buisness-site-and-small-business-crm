@@ -11,6 +11,9 @@
     min-height: 240px;
     background-color: var(--bgcGray);
     justify-content: space-between;
+    position: absolute;
+    top: -120px;
+
 }
 
 .icon {
