@@ -17,14 +17,14 @@ const CTAButton = ({size}) => {
 
 function getPadding(size: 'large' | 'medium' | 'small') {
   if (size === 'large') {
-    return '16px 32px'
+    return '12px 36px'
   }
 
   if (size === 'medium') {
-    return '10px 32px'
+    return '10px 36px'
   }
 
-  return '4px 32px'
+  return '4px 36px'
 }
 
 export default CTAButton;
