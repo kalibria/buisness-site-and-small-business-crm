@@ -13,7 +13,7 @@ const VideoSection = () =>{
       <h2 className={'font-source text-headerTextColor text-3xl font-bold text-center'}>Yoga-Videos für jedes Level</h2>
       <p className={'font-source text-basicTextColor text-center text-lg my-2'}>Ob du gerade mit Yoga beginnst oder deine Praxis vertiefen möchtest: Mehr als 1.000 Yoga-Videos, Asana-Tutorials & Meditationen bieten die passende Yoga-Sequenz für Anfänger:innen und Fortgeschrittene</p>
       <div className={'flex justify-between'}>
-        <div className={styles.videoBlock}>
+        <div className={styles.card}>
           <Image src={meditation} alt={'meditation'}/>
           <div className={'mx-4'}>
             <p className={'mt-2 font-source text-basicTextColor text-lg '}>Annika Isterling</p>
@@ -40,7 +40,7 @@ const VideoSection = () =>{
           </div>
         </div>
 
-        <div className={styles.videoBlock}>
+        <div className={styles.card}>
           <Image src={yogaPose} alt={'yogaPose'}/>
           <div className={'mx-4'}>
             <p className={'mt-2 font-source text-basicTextColor text-lg '}>Moritz Ulrich</p>
@@ -66,7 +66,7 @@ const VideoSection = () =>{
           </div>
         </div>
 
-        <div className={styles.videoBlock}>
+        <div className={styles.card}>
           <Image src={girls} alt={'girls'}/>
 
           <div className={'mx-4'}>

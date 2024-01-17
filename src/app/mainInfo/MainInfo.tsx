@@ -11,7 +11,7 @@ const MainInfo = () =>{
         <YogaSiteInfo/>
         <VideoSection/>
         <div className={'mt-4 mx-auto h-12'}>
-          <CTAButton/>
+          <CTAButton size={'large'} />
         </div>
 
 
