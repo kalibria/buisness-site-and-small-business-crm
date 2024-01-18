@@ -1,18 +1,10 @@
 import type { Metadata } from 'next'
-// import { Inter } from 'next/font/google'
 import './globals.css'
-import {Philosopher} from 'next/font/google';
 import {Source_Sans_3} from 'next/font/google';
-
-const philosopher = Philosopher({
-  weight: ['400', '700'],
-  subsets: ['latin'],
-  variable: '--font-philosopher',
-})
 
 const sourceSance3 = Source_Sans_3({
   subsets: ['latin'],
-  variable: '--font-sourceSance3'
+  display: 'swap',
 })
 
 export const metadata: Metadata = {
@@ -27,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${philosopher.variable} + ${sourceSance3.variable}`}>{children}</body>
+      <body className={sourceSance3.className}>{children}</body>
     </html>
   )
 }
