@@ -1,5 +1,6 @@
 .teachersSection {
     background-color: var(--bgcGray);
+    margin-bottom: 48px;
 }
 
 .teachersSection_icon {
