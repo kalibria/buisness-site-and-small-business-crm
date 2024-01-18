@@ -4,7 +4,7 @@ import styles from './liveClasses.module.css'
 
 const LiveClasses =() =>{
   return (
-    <div>
+    <div className={'mb-28'}>
       <h2>Finde Verbindung in Live-Klassen und -Workshops</h2>
       <p>Jede Woche kannst du in bis zu 7 Live-Klassen gemeinsam mit deinen Lieblingslehrer:innen und der YogaEasy-Community die Matte ausrollen. In Premium-Live-Workshops kannst du in besondere Themen zusätzlich tiefer einsteigen.</p>
       <div className={'mt-5 relative'}>

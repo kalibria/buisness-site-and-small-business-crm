@@ -3,6 +3,7 @@ import YogaSiteInfo from '@component/app/mainInfo/yogaSiteInfo/YogaSiteInfo'
 import VideoSection from '@component/app/mainInfo/videoSection/VideoSection';
 import CTAButton from '@component/uikit/buttons/CTAButton';
 import LiveClasses from '@component/app/mainInfo/liveClasses/LiveClasses';
+import Teachers from '@component/app/mainInfo/teachers/Teachers';
 
 
 const MainInfo = () =>{
@@ -15,6 +16,7 @@ const MainInfo = () =>{
           <CTAButton size={'large'} />
         </div>
         <LiveClasses/>
+        <Teachers/>
 
 
       </div>

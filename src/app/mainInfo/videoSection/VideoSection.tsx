@@ -16,7 +16,7 @@ const VideoSection = () =>{
         <div className={styles.card}>
           <Image src={meditation} alt={'meditation'}/>
           <div className={'mx-4'}>
-            <p className={'mt-2 font-source text-basicTextColor text-lg '}>Annika Isterling</p>
+            <p className={'mt-2 font-source text-basicTextColor text-left text-lg '}>Annika Isterling</p>
             <span className={`${styles.card__description} + mt-2 font-source text-basicTextColor text-lg font-bold`}>Meditation zum Visualisieren deiner Träume und Ideen</span>
 
             <div className={styles.card__metadata}>
@@ -43,7 +43,7 @@ const VideoSection = () =>{
         <div className={styles.card}>
           <Image src={yogaPose} alt={'yogaPose'}/>
           <div className={'mx-4'}>
-            <p className={'mt-2 font-source text-basicTextColor text-lg '}>Moritz Ulrich</p>
+            <p className={'mt-2 font-source text-basicTextColor text-left text-lg '}>Moritz Ulrich</p>
             <span className={`${styles.card__description} + mt-2 font-source text-basicTextColor text-lg font-bold`}>Jivamukti Daily Practice für den Morgen</span>
             <div className={styles.card__metadata}>
               <div className={styles.videoInfo}>
@@ -70,7 +70,7 @@ const VideoSection = () =>{
           <Image src={girls} alt={'girls'}/>
 
           <div className={'mx-4'}>
-            <p className={'mt-2 font-source text-basicTextColor text-lg '}>Nina Heitmann</p>
+            <p className={'mt-2 font-source text-basicTextColor text-left text-lg '}>Nina Heitmann</p>
             <span className={`${styles.card__description} + mt-2 font-source text-basicTextColor text-lg font-bold`}>Natarajasana Flow</span>
 
             <div className={styles.card__metadata}>
