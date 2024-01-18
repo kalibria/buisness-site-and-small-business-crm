@@ -1,0 +1,12 @@
+.liveClassBtn {
+    color: rgba(0, 144, 144, 1);
+    border: 2px solid rgba(0, 144, 144, 1);
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 600;
+
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+}
