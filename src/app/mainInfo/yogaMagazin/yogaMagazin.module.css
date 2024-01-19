@@ -1,0 +1,32 @@
+.magazin_card {
+    border-radius: 30px;
+    min-height: 125px;
+    max-width: 380px;
+    background-color: rgba(0, 144, 144, 1);
+}
+
+.card_description {
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.card_description p {
+    color: rgba(255, 255, 255, 1);
+}
+
+.description_text {
+    color: white;
+    display: inline-block;
+    min-height: 54px;
+}
+
+.description_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description_name image {
+    height: 12px;
+}
+

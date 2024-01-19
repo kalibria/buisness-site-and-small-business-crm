@@ -5,6 +5,7 @@ import CTAButton from '@component/uikit/buttons/CTAButton';
 import LiveClasses from '@component/app/mainInfo/liveClasses/LiveClasses';
 import Teachers from '@component/app/mainInfo/teachers/Teachers';
 import YogaProgram from '@component/app/mainInfo/yogaProgramm/YogaProgram';
+import YogaMagazin from '@component/app/mainInfo/yogaMagazin/YogaMagazin';
 
 
 const MainInfo = () =>{
@@ -22,6 +23,7 @@ const MainInfo = () =>{
         <div className={'my-5 mx-auto h-12'}>
           <CTAButton size={'large'} />
         </div>
+        <YogaMagazin/>
 
 
       </div>
